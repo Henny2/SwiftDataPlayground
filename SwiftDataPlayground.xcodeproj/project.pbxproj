@@ -19,6 +19,7 @@
 		40C560FE2B295D03009E887D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40C561002B295D05009E887D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C561032B295D05009E887D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40C5610A2B295D68009E887D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 			children = (
 				40C560FC2B295D03009E887D /* SwiftDataPlaygroundApp.swift */,
 				40C560FE2B295D03009E887D /* ContentView.swift */,
+				40C5610A2B295D68009E887D /* README.md */,
 				40C561002B295D05009E887D /* Assets.xcassets */,
 				40C561022B295D05009E887D /* Preview Content */,
 			);
