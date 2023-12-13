@@ -7,15 +7,25 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CustomButton: View {
+    @Binding var boolean: Bool
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Button("Click here"){
+            print("clicked the button: \(boolean)")
+            boolean.toggle()
         }
-        .padding()
+        .frame(width:200, height:200)
+        .background(boolean ? .green : .red)
+    }
+}
+
+struct ContentView: View {
+    @State private var boolean = true
+    var body: some View {
+        VStack{
+            CustomButton(boolean: $boolean)
+            Text("the bool value: \(String(boolean))")
+        }
     }
 }
 
