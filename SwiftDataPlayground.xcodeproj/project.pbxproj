@@ -12,6 +12,7 @@
 		40C561012B295D05009E887D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C561002B295D05009E887D /* Assets.xcassets */; };
 		40C561042B295D05009E887D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C561032B295D05009E887D /* Preview Assets.xcassets */; };
 		40C5610C2B2960D4009E887D /* TextEditorTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C5610B2B2960D4009E887D /* TextEditorTestView.swift */; };
+		40C5610E2B29617B009E887D /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C5610D2B29617B009E887D /* BindingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		40C561032B295D05009E887D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40C5610A2B295D68009E887D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		40C5610B2B2960D4009E887D /* TextEditorTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorTestView.swift; sourceTree = "<group>"; };
+		40C5610D2B29617B009E887D /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				40C560FC2B295D03009E887D /* SwiftDataPlaygroundApp.swift */,
 				40C560FE2B295D03009E887D /* ContentView.swift */,
 				40C5610B2B2960D4009E887D /* TextEditorTestView.swift */,
+				40C5610D2B29617B009E887D /* BindingView.swift */,
 				40C5610A2B295D68009E887D /* README.md */,
 				40C561002B295D05009E887D /* Assets.xcassets */,
 				40C561022B295D05009E887D /* Preview Content */,
@@ -144,6 +147,7 @@
 			files = (
 				40C560FF2B295D03009E887D /* ContentView.swift in Sources */,
 				40C5610C2B2960D4009E887D /* TextEditorTestView.swift in Sources */,
+				40C5610E2B29617B009E887D /* BindingView.swift in Sources */,
 				40C560FD2B295D03009E887D /* SwiftDataPlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
