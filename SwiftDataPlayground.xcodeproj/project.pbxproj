@@ -13,6 +13,7 @@
 		40C561042B295D05009E887D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C561032B295D05009E887D /* Preview Assets.xcassets */; };
 		40C5610C2B2960D4009E887D /* TextEditorTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C5610B2B2960D4009E887D /* TextEditorTestView.swift */; };
 		40C5610E2B29617B009E887D /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C5610D2B29617B009E887D /* BindingView.swift */; };
+		40C561102B296516009E887D /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C5610F2B296516009E887D /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		40C5610A2B295D68009E887D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		40C5610B2B2960D4009E887D /* TextEditorTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorTestView.swift; sourceTree = "<group>"; };
 		40C5610D2B29617B009E887D /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		40C5610F2B296516009E887D /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				40C560FC2B295D03009E887D /* SwiftDataPlaygroundApp.swift */,
 				40C560FE2B295D03009E887D /* ContentView.swift */,
+				40C5610F2B296516009E887D /* Student.swift */,
 				40C5610B2B2960D4009E887D /* TextEditorTestView.swift */,
 				40C5610D2B29617B009E887D /* BindingView.swift */,
 				40C5610A2B295D68009E887D /* README.md */,
@@ -148,6 +151,7 @@
 				40C560FF2B295D03009E887D /* ContentView.swift in Sources */,
 				40C5610C2B2960D4009E887D /* TextEditorTestView.swift in Sources */,
 				40C5610E2B29617B009E887D /* BindingView.swift in Sources */,
+				40C561102B296516009E887D /* Student.swift in Sources */,
 				40C560FD2B295D03009E887D /* SwiftDataPlaygroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
